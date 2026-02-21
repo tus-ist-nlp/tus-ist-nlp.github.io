@@ -1,0 +1,95 @@
+.member-section {
+  margin: 1.4rem 0;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.page__content > .member-section:first-of-type {
+  margin-top: 1rem;
+}
+
+.member-item {
+  margin: 0.5rem 0;
+}
+
+.member-name {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  font-size: 1.22rem;
+  line-height: 1.3;
+}
+
+.member-role {
+  margin: 0;
+  font-size: 0.66em;
+  font-weight: 500;
+  line-height: 1.1;
+  color: $muted-text-color;
+}
+
+.member-icons {
+  margin: 0.4rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 0.2rem;
+  row-gap: 0.08rem;
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2rem;
+    height: 1.2rem;
+    color: inherit;
+    line-height: 1;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  i {
+    font-size: 1.02rem;
+  }
+}
+
+.member-email-item {
+  flex: 0 0 100%;
+  width: 100%;
+  margin: 0.02rem 0 0.04rem;
+  line-height: 1;
+}
+
+.member-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.16rem;
+  margin-right: 0.25rem;
+}
+
+.member-email-text {
+  font-size: 0.92rem;
+  line-height: 1;
+  color: $muted-text-color;
+  white-space: nowrap;
+}
+
+.member-empty {
+  color: $muted-text-color;
+}

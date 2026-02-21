@@ -1,0 +1,733 @@
+---
+sections:
+- title:
+    ja: 書籍
+    en: Books
+  items:
+  - title:
+      ja: 大規模言語モデル入門Ⅱ〜生成型LLMの実装と評価
+      en: Introduction to Large Language Models II (in Japanese)
+    authors:
+      ja: 山田 育矢, 鈴木 正敏, 西川 荘介, 藤井 一喜, 山田 康輔, 李 凌寒
+      en: Ikuya Yamada, Masatoshi Suzuki, Sosuke Nishikawa, Kazuki Fujii, Kosuke Yamada, Linghan Li
+    publisher:
+      ja: 技術評論社
+      en: Gijutsu-Hyoron Co., Ltd.
+    year: 2024
+    month: 9
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://gihyo.jp/book/2024/978-4-297-14393-0
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/4297143933
+  - title:
+      ja: 大規模言語モデル入門
+      en: Introduction to Large Language Models (in Japanese)
+    authors:
+      ja: 山田 育矢, 鈴木 正敏, 山田 康輔, 李 凌寒
+      en: Ikuya Yamada, Masatoshi Suzuki, Kosuke Yamada, Linghan Li
+    publisher:
+      ja: 技術評論社
+      en: Gijutsu-Hyoron Co., Ltd.
+    year: 2023
+    month: 7
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://gihyo.jp/book/2023/978-4-297-13633-8
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/4297136333
+  - title:
+      ja: ディープラーニングによる自然言語処理
+      en: Natural Language Processing with Deep Learning (in Japanese)
+    authors:
+      ja: 山田 育矢, 柴田 知秀, 進藤 裕之, 玉木 竜二
+      en: Ikuya Yamada, Tomohide Shibata, Hiroyuki Shindo, Ryuji Tamaki
+    publisher:
+      ja: 共立出版
+      en: Kyoritsu Shuppan Co., Ltd.
+    year: 2023
+    month: 5
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://www.kyoritsu-pub.co.jp/book/b10031165.html
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/4320125029
+  - title:
+      ja: 自然言語処理技術
+      en: Natural Language Processing (in Japanese)
+    authors:
+      ja: 鈴木 潤, 土屋 誠司, 本橋 和貴, 高橋 寛治, 田村 晃裕, 山田 育矢, 荒木 健治, 森信介, 渡邉 信一, 原 紳, 水本 智也, 清水 武
+      en: Jun Suzuki, Seiji Tsuchiya, Kazutaka Motohashi, Kanji Takahashi, Akihiro Tamura, Ikuya Yamada, Kenji Araki, Shinsuke Mori, Shinichi Watanabe, Shin Hara, Tomoya Mizumoto, Takeshi Shimizu
+    publisher:
+      ja: 情報機構
+      en: Joho Kiko Co., Ltd.
+    year: 2020
+    month: 3
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://johokiko.co.jp/publishing/BC200202.php
+  - title:
+      ja: Pythonによるはじめての機械学習プログラミング
+      en: Introduction to Machine Learning Programming in Python (in Japanese)
+    authors:
+      ja: 島田 達朗, 越水 直人, 早川 敦士, 山田 育矢
+      en: Tatsuro Shimada, Naoto Koshimizu, Atsushi Hayakawa, Ikuya Yamada
+    publisher:
+      ja: 技術評論社
+      en: Gijutsu-Hyoron Co., Ltd.
+    year: 2019
+    month: 4
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://gihyo.jp/book/2019/978-4-297-10525-9
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/429710525X
+- title:
+    ja: ジャーナル論文
+    en: Journal Articles
+  items:
+  - title:
+      ja: シソーラスの階層的構造を利用した弱教師あり固有表現抽出
+      en: Weakly supervised named entity recognition using thesaurus with hierarchical structure
+    authors:
+      ja: 芝原 隆善, 山田 育矢, 西田 典起, 寺西 裕紀, 古崎 晃司, 松本 裕治
+      en: Takayoshi Shibahara, Ikuya Yamada, Noriki Nishida, Hiroki Teranishi, Kouji Kozaki, Yuji Matsumoto
+    venue:
+      ja: 自然言語処理
+      en: Journal of Natural Language Processing
+    year: 2024
+    month: 9
+    links:
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/fracivilization/thesaurus-based-ner
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.5715/jnlp.31.984
+  - title:
+      ja: 'Trick me if you can: Human-in-the-loop generation of adversarial examples for question answering'
+      en: 'Trick me if you can: Human-in-the-loop generation of adversarial examples for question answering'
+    authors:
+      ja: Eric Wallace, Pedro Rodriguez, Shi Feng, Ikuya Yamada, Jordan Boyd-Graber
+      en: Eric Wallace, Pedro Rodriguez, Shi Feng, Ikuya Yamada, Jordan Boyd-Graber
+    venue:
+      ja: TACL
+      en: TACL
+    year: 2019
+    month: 7
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1809.02701
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/Eric-Wallace/trickme-interface
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.1162/tacl_a_00279
+  - title:
+      ja: 'Linkify: Enhancing text reading experience by detecting and linking helpful entities to users'
+      en: 'Linkify: Enhancing text reading experience by detecting and linking helpful entities to users'
+    authors:
+      ja: Ikuya Yamada, Tomotaka Ito, Hideaki Takeda, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Tomotaka Ito, Hideaki Takeda, Yoshiyasu Takefuji
+    venue:
+      ja: IEEE Intelligent Systems
+      en: IEEE Intelligent Systems
+    year: 2018
+    month: 9
+    links:
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.1109/MIS.2018.111144233
+  - title:
+      ja: Learning distributed representations of texts and entities from knowledge base
+      en: Learning distributed representations of texts and entities from knowledge base
+    authors:
+      ja: Ikuya Yamada, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu Takefuji
+    venue:
+      ja: TACL
+      en: TACL
+    year: 2017
+    month: 11
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1705.02494
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/studio-ousia/ntee
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.1162/tacl_a_00069
+- title:
+    ja: 国際会議論文
+    en: International Conference Papers
+  items:
+  - title:
+      ja: Dynamic injection of entity knowledge into dense retrievers
+      en: Dynamic injection of entity knowledge into dense retrievers
+    authors:
+      ja: Ikuya Yamada, Ryokan Ri, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo
+      en: Ikuya Yamada, Ryokan Ri, Takeshi Kojima, Yusuke Iwasawa, Yutaka Matsuo
+    venue:
+      ja: EMNLP Findings
+      en: EMNLP Findings
+    year: 2025
+    month: 11
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2507.03922
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/knowledgeable-embedding/knowledgeable-embedding
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2025.findings-emnlp.915
+  - title:
+      ja: 'LEIA: Facilitating cross-lingual knowledge transfer in language models with entity-based data augmentation'
+      en: 'LEIA: Facilitating cross-lingual knowledge transfer in language models with entity-based data augmentation'
+    authors:
+      ja: Ikuya Yamada, Ryokan Ri
+      en: Ikuya Yamada, Ryokan Ri
+    venue:
+      ja: ACL Findings
+      en: ACL Findings
+    year: 2024
+    month: 8
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2402.11485
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/leia-llm/leia
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2024.findings-acl.419
+  - title:
+      ja: Arukikata travelogue dataset with geographic entity mention, coreference, and linking annotations
+      en: Arukikata travelogue dataset with geographic entity mention, coreference, and link annotation
+    authors:
+      ja: Shohei Higashiyama, Hiroki Ouchi, Hiroki Teranishi, Hiroyuki Otomo, Yusuke Ide, Aitaro Yamamoto, Hiroyuki Shindo, Yuki Matsuda, Shoko Wakamiya, Naoya Inoue, Ikuya Yamada, Taro Watanabe
+      en: Shohei Higashiyama, Hiroki Ouchi, Hiroki Teranishi, Hiroyuki Otomo, Yusuke Ide, Aitaro Yamamoto, Hiroyuki Shindo, Yuki Matsuda, Shoko Wakamiya, Naoya Inoue, Ikuya Yamada, Taro Watanabe
+    venue:
+      ja: EACL Findings
+      en: EACL Findings
+    year: 2024
+    month: 3
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2305.13844
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/naist-nlp/atd-mcl
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2024.findings-eacl.35
+  - title:
+      ja: Entity embedding completion for wide-coverage entity disambiguation
+      en: Entity embedding completion for wide-coverage entity disambiguation
+    authors:
+      ja: Daisuke Oba, Ikuya Yamada, Naoki Yoshinaga, Masashi Toyoda
+      en: Daisuke Oba, Ikuya Yamada, Naoki Yoshinaga, Masashi Toyoda
+    venue:
+      ja: EMNLP Findings
+      en: EMNLP Findings
+    year: 2022
+    month: 12
+    links:
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/studio-ousia/steel
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2022.findings-emnlp.472
+  - title:
+      ja: A multilingual bag-of-entities model for zero-shot cross-lingual text classification
+      en: A multilingual bag-of-entities model for zero-shot cross-lingual text classification
+    authors:
+      ja: Sosuke Nishikawa, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen
+      en: Sosuke Nishikawa, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen
+    venue:
+      ja: CoNLL
+      en: CoNLL
+    year: 2022
+    month: 12
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2110.07792
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2022.conll-1.1
+  - title:
+      ja: Global entity disambiguation with BERT
+      en: Global entity disambiguation with BERT
+    authors:
+      ja: Ikuya Yamada, Koki Washio, Hiroyuki Shindo, Yuji Matsumoto
+      en: Ikuya Yamada, Koki Washio, Hiroyuki Shindo, Yuji Matsumoto
+    venue:
+      ja: NAACL
+      en: NAACL
+    year: 2022
+    month: 7
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1909.00426
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/studio-ousia/luke
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2022.naacl-main.238
+  - title:
+      ja: 'EASE: Entity-aware contrastive learning of sentence embedding'
+      en: 'EASE: Entity-aware contrastive learning of sentence embedding'
+    authors:
+      ja: Sosuke Nishikawa, Ryokan Ri, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen
+      en: Sosuke Nishikawa, Ryokan Ri, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen
+    venue:
+      ja: NAACL
+      en: NAACL
+    year: 2022
+    month: 7
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2205.04260
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/studio-ousia/ease
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2022.naacl-main.284
+  - title:
+      ja: 'mLUKE: The power of entity representations in multilingual pretrained language models'
+      en: 'mLUKE: The power of entity representations in multilingual pretrained language models'
+    authors:
+      ja: Ryokan Ri, Ikuya Yamada, Yoshimasa Tsuruoka
+      en: Ryokan Ri, Ikuya Yamada, Yoshimasa Tsuruoka
+    venue:
+      ja: ACL
+      en: ACL
+    year: 2022
+    month: 5
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2110.08151
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/studio-ousia/luke
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2022.acl-long.505
+  - title:
+      ja: 'NeurIPS 2020 EfficientQA Competition: Systems, analyses and lessons learned'
+      en: 'NeurIPS 2020 EfficientQA Competition: Systems, analyses and lessons learned'
+    authors:
+      ja: Sewon Min, Jordan Boyd-Graber, Chris Alberti, Danqi Chen, Eunsol Choi, Michael Collins, Kelvin Guu, Hannaneh Hajishirzi, Kenton Lee, Jennimaria Palomaki, Colin Raffel, Adam Roberts, Tom Kwiatkowski, Patrick Lewis, Yuxiang Wu, Heinrich Küttler, Linqing Liu, Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel, Sohee Yang, Minjoon Seo, Gautier Izacard, Fabio Petroni, Lucas Hosseini, Nicola De Cao, Edouard Grave, Ikuya Yamada, Sonse Shimaoka, Masatoshi Suzuki, Shumpei Miyawaki, Shun Sato, Ryo Takahashi, Jun Suzuki, other competition participants
+      en: Sewon Min, Jordan Boyd-Graber, Chris Alberti, Danqi Chen, Eunsol Choi, Michael Collins, Kelvin Guu, Hannaneh Hajishirzi, Kenton Lee, Jennimaria Palomaki, Colin Raffel, Adam Roberts, Tom Kwiatkowski, Patrick Lewis, Yuxiang Wu, Heinrich Küttler, Linqing Liu, Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel, Sohee Yang, Minjoon Seo, Gautier Izacard, Fabio Petroni, Lucas Hosseini, Nicola De Cao, Edouard Grave, Ikuya Yamada, Sonse Shimaoka, Masatoshi Suzuki, Shumpei Miyawaki, Shun Sato, Ryo Takahashi, Jun Suzuki, other competition participants
+    venue:
+      ja: PMLR
+      en: PMLR
+    year: 2021
+    month: 8
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2101.00133
+  - title:
+      ja: Efficient passage retrieval with hashing for open-domain question answering
+      en: Efficient passage retrieval with hashing for open-domain question answering
+    authors:
+      ja: Ikuya Yamada, Akari Asai, Hannaneh Hajishirzi
+      en: Ikuya Yamada, Akari Asai, Hannaneh Hajishirzi
+    venue:
+      ja: ACL
+      en: ACL
+    year: 2021
+    month: 8
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2106.00882
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/studio-ousia/bpr
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2021.acl-short.123
+  - title:
+      ja: 'LUKE: Deep contextualized entity representations with entity-aware self-attention'
+      en: 'LUKE: Deep contextualized entity representations with entity-aware self-attention'
+    authors:
+      ja: Ikuya Yamada, Akari Asai, Hiroyuki Shindo, Hideaki Takeda, Yuji Matsumoto
+      en: Ikuya Yamada, Akari Asai, Hiroyuki Shindo, Hideaki Takeda, Yuji Matsumoto
+    venue:
+      ja: EMNLP
+      en: EMNLP
+    year: 2020
+    month: 11
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2010.01057
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2020.emnlp-main.523
+  - title:
+      ja: 'Wikipedia2Vec: An efficient toolkit for learning and visualizing the embeddings of words and entities from Wikipedia'
+      en: 'Wikipedia2Vec: An efficient toolkit for learning and visualizing the embeddings of words and entities from Wikipedia'
+    authors:
+      ja: Ikuya Yamada, Akari Asai, Jin Sakuma, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Akari Asai, Jin Sakuma, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu Takefuji
+    venue:
+      ja: EMNLP System Demonstrations
+      en: EMNLP System Demonstrations
+    year: 2020
+    month: 10
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1812.06280
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2020.emnlp-demos.4
+  - title:
+      ja: Neural attentive bag-of-entities model for text classification
+      en: Neural attentive bag-of-entities model for text classification
+    authors:
+      ja: Ikuya Yamada, Hiroyuki Shindo
+      en: Ikuya Yamada, Hiroyuki Shindo
+    venue:
+      ja: CoNLL
+      en: CoNLL
+    year: 2019
+    month: 11
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1909.01259
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/wikipedia2vec/wikipedia2vec
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/K19-1052
+  - title:
+      ja: Studio Ousia's quiz bowl question answering system
+      en: Studio Ousia's quiz bowl question answering system
+    authors:
+      ja: Ikuya Yamada, Ryuji Tamaki, Hiroyuki Shindo, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Ryuji Tamaki, Hiroyuki Shindo, Yoshiyasu Takefuji
+    venue:
+      ja: 'The NIPS ''17 Competition: Building Intelligent Systems'
+      en: 'The NIPS ''17 Competition: Building Intelligent Systems'
+    year: 2018
+    month: 9
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1803.08652
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.1007/978-3-319-94042-7_10
+  - title:
+      ja: Representation learning of entities and documents from knowledge base descriptions
+      en: Representation learning of entities and documents from knowledge base descriptions
+    authors:
+      ja: Ikuya Yamada, Hiroyuki Shindo, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Hiroyuki Shindo, Yoshiyasu Takefuji
+    venue:
+      ja: COLING
+      en: COLING
+    year: 2018
+    month: 8
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1806.02960
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/studio-ousia/textent
+  - title:
+      ja: Segment-level neural conditional random fields for named entity recognition
+      en: Segment-level neural conditional random fields for named entity recognition
+    authors:
+      ja: Motoki Sato, Hiroyuki Shindo, Ikuya Yamada, Yuji Matsumoto
+      en: Motoki Sato, Hiroyuki Shindo, Ikuya Yamada, Yuji Matsumoto
+    venue:
+      ja: IJCNLP
+      en: IJCNLP
+    year: 2017
+    month: 11
+  - title:
+      ja: Named entity disambiguation for noisy text
+      en: Named entity disambiguation for noisy text
+    authors:
+      ja: Yotam Eshel, Noam Cohen, Kira Radinsky, Shaul Markovitch, Ikuya Yamada, Omer Levy
+      en: Yotam Eshel, Noam Cohen, Kira Radinsky, Shaul Markovitch, Ikuya Yamada, Omer Levy
+    venue:
+      ja: CoNLL
+      en: CoNLL
+    year: 2017
+    month: 8
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1706.09147
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/yotam-happy/NEDforNoisyText
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/K17-1008
+  - title:
+      ja: Joint learning of the embedding of words and entities for named entity disambiguation
+      en: Joint learning of the embedding of words and entities for named entity disambiguation
+    authors:
+      ja: Ikuya Yamada, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu Takefuji
+    venue:
+      ja: CoNLL
+      en: CoNLL
+    year: 2016
+    month: 8
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/1601.01343
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/wikipedia2vec/wikipedia2vec
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/K16-1025
+- title:
+    ja: 国際ワークショップ論文
+    en: International Workshop Papers
+  items:
+  - title:
+      ja: 'MIA 2022 Shared Task: Evaluating cross-lingual open-retrieval question answering for 16 diverse languages'
+      en: 'MIA 2022 Shared Task: Evaluating cross-lingual open-retrieval question answering for 16 diverse languages'
+    authors:
+      ja: Akari Asai, Shayne Longpre, Jungo Kasai, Chia-Hsuan Lee, Rui Zhang, Junjie Hu, Ikuya Yamada, Jonathan H. Clark, Eunsol Choi
+      en: Akari Asai, Shayne Longpre, Jungo Kasai, Chia-Hsuan Lee, Rui Zhang, Junjie Hu, Ikuya Yamada, Jonathan H. Clark, Eunsol Choi
+    venue:
+      ja: Workshop on Multilingual Information Access
+      en: Workshop on Multilingual Information Access
+    year: 2022
+    month: 7
+    links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2207.00758
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/mia-workshop/MIA-Shared-Task-2022
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/2022.mia-1.11
+  - title:
+      ja: 'SemTab 2021: Tabular data annotation with MTab tool'
+      en: 'SemTab 2021: Tabular data annotation with MTab tool'
+    authors:
+      ja: Phuc Nguyen, Ikuya Yamada, Natthawut Kertkeidkachorn, Ryutaro Ichise, Hideaki Takeda
+      en: Phuc Nguyen, Ikuya Yamada, Natthawut Kertkeidkachorn, Ryutaro Ichise, Hideaki Takeda
+    venue:
+      ja: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching
+      en: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching
+    year: 2021
+    month: 12
+    links:
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/phucty/mtab_tool
+  - title:
+      ja: 'Demonstration of MTab: Tabular data annotation with knowledge graphs'
+      en: 'Demonstration of MTab: Tabular data annotation with knowledge graphs'
+    authors:
+      ja: Phuc Nguyen, Ikuya Yamada, Natthawut Kertkeidkachorn, Ryutaro Ichise, Hideaki Takeda
+      en: Phuc Nguyen, Ikuya Yamada, Natthawut Kertkeidkachorn, Ryutaro Ichise, Hideaki Takeda
+    venue:
+      ja: ISWC Posters, Demos and Industry Tracks
+      en: ISWC Posters, Demos and Industry Tracks
+    year: 2021
+    month: 10
+    links:
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/phucty/mtab_tool
+  - title:
+      ja: Studio Ousia at the NTCIR-15 SHINRA2020-ML task
+      en: Studio Ousia at the NTCIR-15 SHINRA2020-ML task
+    authors:
+      ja: Sosuke Nishikawa, Ikuya Yamada
+      en: Sosuke Nishikawa, Ikuya Yamada
+    venue:
+      ja: NTCIR Conference on Evaluation of Information Access Technologies
+      en: NTCIR Conference on Evaluation of Information Access Technologies
+    year: 2020
+    month: 12
+  - title:
+      ja: 'MTab4Wikidata at SemTab 2020: Tabular data annotation with Wikidata'
+      en: 'MTab4Wikidata at SemTab 2020: Tabular data annotation with Wikidata'
+    authors:
+      ja: Phuc Nguyen, Ikuya Yamada, Natthawut Kertkeidkachorn, Ryutaro Ichise, Hideaki Takeda
+      en: Phuc Nguyen, Ikuya Yamada, Natthawut Kertkeidkachorn, Ryutaro Ichise, Hideaki Takeda
+    venue:
+      ja: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching
+      en: Semantic Web Challenge on Tabular Data to Knowledge Graph Matching
+    year: 2020
+    month: 11
+    links:
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/phucty/mtab_tool
+  - title:
+      ja: Hierarchical contextualized representation models for answer type prediction
+      en: Hierarchical contextualized representation models for answer type prediction
+    authors:
+      ja: Natthawut Kertkeidkachorn, Rungsiman Nararatwong, Phuc Nguyen, Ikuya Yamada, Hideaki Takeda, Ryutaro Ichise
+      en: Natthawut Kertkeidkachorn, Rungsiman Nararatwong, Phuc Nguyen, Ikuya Yamada, Hideaki Takeda, Ryutaro Ichise
+    venue:
+      ja: ISWC Posters, Demos and Industry Tracks
+      en: ISWC Posters, Demos and Industry Tracks
+    year: 2020
+    month: 11
+    links:
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/rungsiman/smart
+  - title:
+      ja: Multi-task transfer learning for fine-grained named entity recognition
+      en: Multi-task transfer learning for fine-grained named entity recognition
+    authors:
+      ja: Masato Hagiwara, Ryuji Tamaki, Ikuya Yamada
+      en: Masato Hagiwara, Ryuji Tamaki, Ikuya Yamada
+    venue:
+      ja: Text Analysis Conference
+      en: Text Analysis Conference
+    year: 2019
+    month: 11
+  - title:
+      ja: Similarity matrix model for the NTCIR-12 MedNLPDoc task
+      en: Similarity matrix model for the NTCIR-12 MedNLPDoc task
+    authors:
+      ja: Yuichiro Sawai, Mai Omura, Hiroki Ouchi, Yuki Nagai, Masashi Yoshikawa, Ikuya Yamada
+      en: Yuichiro Sawai, Mai Omura, Hiroki Ouchi, Yuki Nagai, Masashi Yoshikawa, Ikuya Yamada
+    venue:
+      ja: NTCIR Conference on Evaluation of Information Access Technologies
+      en: NTCIR Conference on Evaluation of Information Access Technologies
+    year: 2016
+    month: 6
+  - title:
+      ja: Enhancing named entity recognition in Twitter messages using entity linking
+      en: Enhancing named entity recognition in Twitter messages using entity linking
+    authors:
+      ja: Ikuya Yamada, Hideaki Takeda, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Hideaki Takeda, Yoshiyasu Takefuji
+    venue:
+      ja: Workshop on Noisy User-generated Text
+      en: Workshop on Noisy User-generated Text
+    year: 2015
+    month: 7
+    links:
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/v1/W15-4320
+  - title:
+      ja: An end-to-end entity linking approach for tweets
+      en: An end-to-end entity linking approach for tweets
+    authors:
+      ja: Ikuya Yamada, Hideaki Takeda, Yoshiyasu Takefuji
+      en: Ikuya Yamada, Hideaki Takeda, Yoshiyasu Takefuji
+    venue:
+      ja: Workshop on Making Sense of Microposts
+      en: Workshop on Making Sense of Microposts
+    year: 2015
+    month: 5

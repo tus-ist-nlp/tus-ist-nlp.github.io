@@ -1,0 +1,60 @@
+{% assign lang = include.lang | default: page.lang | default: "ja" %}
+{% assign sections = site.data.publications.sections %}
+{% assign has_any_items = false %}
+
+{% for section in sections %}
+  {% if section.items and section.items.size > 0 %}
+    {% assign has_any_items = true %}
+    {% assign section_title = section.title[lang] | default: section.title.ja %}
+    {% assign section_slug = section_title | slugify %}
+    {% if section_slug == "" %}
+      {% assign section_slug = "section" %}
+    {% endif %}
+    {% assign section_id = "publication-" | append: section_slug | append: "-" | append: forloop.index %}
+<section class="publication-section">
+<h2 id="{{ section_id }}">{{ section_title }}</h2>
+<ol class="publication-list">
+{% for pub in section.items %}
+  {% assign pub_title = pub.title[lang] | default: pub.title.ja | default: pub.title %}
+  {% if pub.authors.ja or pub.authors.en %}
+    {% assign pub_authors = pub.authors[lang] | default: pub.authors.ja | default: pub.authors.en | default: "" | strip %}
+  {% else %}
+    {% assign pub_authors = pub.authors | default: "" | strip %}
+  {% endif %}
+  {% assign pub_venue = pub.venue[lang] | default: pub.venue.ja | default: pub.venue | default: "" | strip %}
+  {% assign pub_publisher = pub.publisher[lang] | default: pub.publisher.ja | default: pub.publisher.en | default: pub.publisher | default: "" | strip %}
+  {% assign pub_year = pub.year | default: "" | strip %}
+  <li>
+    <div class="publication-title">{{ pub_title }}</div>
+    {% if pub_authors != "" or pub_venue != "" or pub_publisher != "" or pub_year != "" %}
+    <div class="publication-meta">
+      {% if pub_authors != "" %}
+        <div class="publication-authors">{{ pub_authors }}</div>
+      {% endif %}
+      {% if pub_venue != "" or pub_publisher != "" or pub_year != "" %}
+        <div class="publication-venue-year">{% if pub_venue != "" %}<em>{{ pub_venue }}</em>{% elsif pub_publisher != "" %}{{ pub_publisher }}{% endif %}{% if pub_year != "" %}{% if pub_venue != "" or pub_publisher != "" %}. {% endif %}{{ pub_year }}{% endif %}.</div>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% if pub.links and pub.links.size > 0 %}
+      <div class="publication-links">
+        {% for link in pub.links %}
+          {% assign link_label = link.label[lang] | default: link.label.ja | default: link.label %}
+          <a class="btn btn--primary btn--small" href="{{ link.url }}" target="_blank">{{ link_label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
+</section>
+  {% endif %}
+{% endfor %}
+
+{% unless has_any_items %}
+  {% if lang == "ja" %}
+    論文情報は準備中です。
+  {% else %}
+    No publications are available yet.
+  {% endif %}
+{% endunless %}

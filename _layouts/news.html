@@ -1,0 +1,9 @@
+---
+layout: single
+---
+
+{% if page.date %}
+<p><strong>Date:</strong> {{ page.date | date: "%Y-%m-%d" }}</p>
+{% endif %}
+
+{{ content }}

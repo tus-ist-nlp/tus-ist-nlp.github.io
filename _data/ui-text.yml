@@ -1,0 +1,24 @@
+en: &DEFAULT_EN
+  site_title: "NLP Laboratory"
+  site_subtitle: |-
+    Faculty of Information Science and Technology
+    Tokyo University of Science
+  page: "Page"
+  date_label: "Updated:"
+  recent_posts: "Recent posts"
+  back_to_top: "Back to top"
+
+en-US:
+  <<: *DEFAULT_EN
+
+ja: &DEFAULT_JA
+  site_title: "自然言語処理研究室"
+  site_subtitle: "東京理科大学創域情報学部"
+  page: "ページ"
+  date_label: "更新日:"
+  more_label: "続きを読む"
+  recent_posts: "最近の投稿"
+  back_to_top: "先頭へ戻る"
+
+ja-JP:
+  <<: *DEFAULT_JA

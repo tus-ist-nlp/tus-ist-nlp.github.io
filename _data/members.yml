@@ -1,0 +1,16 @@
+sections:
+  - title:
+      ja: "教員"
+      en: "Faculty"
+    members:
+      - name:
+          ja: "山田 育矢"
+          en: "Ikuya Yamada"
+        role:
+          ja: "教授"
+          en: "Professor"
+        email: "ikuya@ikuya.net"
+        homepage: "https://www.ikuya.net/"
+        scholar: "https://scholar.google.com/citations?user=M7YivToAAAAJ"
+        x: "https://x.com/ikuyamada"
+        github: "https://github.com/ikuyamada"

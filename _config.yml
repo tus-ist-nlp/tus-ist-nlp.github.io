@@ -1,0 +1,76 @@
+title: "The Natural Language Processing Laboratory at Faculty of Information Science and Technology, Tokyo University of Science"
+description: "The official website for the NLP Laboratory at Faculty of Information Science and Technology, Tokyo University of Science."
+url: ""
+baseurl: ""
+repository: ""
+locale: "en-US"
+timezone: "Asia/Tokyo"
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
+search: false
+atom_feed:
+  hide: true
+safe: true
+whitelist:
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:path/
+include:
+  - _pages
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      comments: false
+  - scope:
+      path: "_pages/en"
+      type: pages
+    values:
+      lang: en
+      locale: en-US
+  - scope:
+      path: "_pages/ja"
+      type: pages
+    values:
+      lang: ja
+      locale: ja-JP
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      comments: false
+      read_time: false
+      share: false
+      related: false
+  - scope:
+      path: "_posts/en"
+      type: posts
+    values:
+      lang: en
+      locale: en-US
+      permalink: /en/news/:year/:month/:day/:title/
+  - scope:
+      path: "_posts/ja"
+      type: posts
+    values:
+      lang: ja
+      locale: ja-JP
+      permalink: /ja/news/:year/:month/:day/:title/
+
+exclude:
+  - vendor
+  - .bundle
+  - node_modules
+  - tmp

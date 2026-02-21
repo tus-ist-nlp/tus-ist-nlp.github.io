@@ -1,0 +1,23 @@
+<section class="embedding-hero" data-embedding-hero data-language="{{ page.lang }}"
+  data-en-data-url="{{ '/assets/widgets/data/en_wiki2vec.json' | relative_url }}"
+  data-ja-data-url="{{ '/assets/widgets/data/ja_wiki2vec.json' | relative_url }}">
+  <canvas id="hero-canvas" class="embedding-hero__canvas" aria-hidden="true"></canvas>
+  <div id="hero-text-container" class="embedding-hero__overlay">
+    <div class="embedding-hero__heading">
+      <div class="embedding-hero__title embedding-hero__title--secondary">
+        {% if page.lang == "ja" %}
+          <span class="text-nowrap">東京理科大学創域情報学部</span>
+        {% else %}
+          <span>Faculty of Information Science and Technology<br>Tokyo University of Science</span>
+        {% endif %}
+      </div>
+      <div class="embedding-hero__title embedding-hero__title--primary">
+        {% if page.lang == "ja" %}
+          <span class="text-nowrap">自然言語処理研究室</span>
+        {% else %}
+          <span class="text-nowrap">Natural Language Processing Laboratory</span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,52 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% assign page_lang = page.lang | default: 'en' %}
+{% assign title_href = '/en/' %}
+{% assign nav_data = site.data.navigation.main[page_lang] | default: site.data.navigation.main.en %}
+{% assign inferred_locale = "en-US" %}
+{% if page_lang == "ja" %}
+  {% assign inferred_locale = "ja-JP" %}
+{% endif %}
+{% assign current_locale = page.locale | default: inferred_locale | default: site.locale | default: 'en' %}
+{% assign current_lang = current_locale | split: '-' | first %}
+{% assign ui_text = site.data.ui-text[current_locale] | default: site.data.ui-text[current_lang] | default: site.data.ui-text.en %}
+{% assign localized_site_title = ui_text.site_title | default: site.masthead_title | default: site.title %}
+{% assign localized_site_subtitle = ui_text.site_subtitle | default: "" %}
+
+{% if page_lang == "ja" or current_locale contains "ja" %}
+  {% assign title_href = '/ja/' %}
+{% endif %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ title_href | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ localized_site_title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ title_href | relative_url }}">
+          <span class="site-title__main">{{ localized_site_title | escape_once | strip }}</span>
+          {% unless localized_site_subtitle == empty %}
+            <span class="site-title__subtitle">{{ localized_site_subtitle | escape_once | strip }}</span>
+          {% endunless %}
+        </a>
+        <ul class="visible-links">
+          {%- for link in nav_data -%}
+            <li class="masthead__menu-item">
+              <a
+                href="{{ link.url | relative_url }}"
+                {% if link.description %} title="{{ link.description }}"{% endif %}
+                {% if link.target %} target="{{ link.target }}"{% endif %}
+              >{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+          <li class="masthead__menu-item masthead__menu-item--lang">{% include lang-switcher.html %}</li>
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ ui_text.menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>

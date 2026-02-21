@@ -1,0 +1,42 @@
+.page__footer footer {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.page__content h2 {
+  margin-top: 1.5em;
+}
+
+.sidebar__right .toc .nav__title .fa-file-alt {
+  display: none;
+}
+
+@media (min-width: 64em) {
+  .layout--single.wide .page__content > .sidebar__right {
+    position: absolute;
+    top: -2.25rem;
+    inset-inline-start: 0;
+    inset-inline-end: auto;
+    width: 200px;
+    margin: 0;
+    margin-inline-start: -200px;
+    padding-inline-start: 0;
+    padding-inline-end: 1rem;
+    z-index: 10;
+  }
+
+  .layout--single.wide .page__content > .sidebar__right.sticky {
+    position: sticky;
+    top: 1rem;
+    margin-top: -2.25rem;
+    float: inline-start;
+    clear: none;
+  }
+}
+
+@media (min-width: 80em) {
+  .layout--single.wide .page__content > .sidebar__right {
+    width: 300px;
+    margin-inline-start: -300px;
+  }
+}

@@ -1,0 +1,25 @@
+{% if site.footer_scripts %}
+  {% for script in site.footer_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% else %}
+  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+{% endif %}
+
+{% include analytics.html %}
+
+{% if page.page_js %}
+  {% for script in page.page_js %}
+    {% if script.path %}
+  <script src="{{ script.path | relative_url }}"{% if script.module %} type="module"{% endif %}></script>
+    {% else %}
+  <script src="{{ script | relative_url }}"></script>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if site.after_footer_scripts %}
+  {% for script in site.after_footer_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}

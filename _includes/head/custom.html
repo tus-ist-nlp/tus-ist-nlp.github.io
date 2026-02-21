@@ -1,0 +1,37 @@
+<!-- start custom head snippets -->
+
+{% assign all_docs = site.pages | concat: site.posts %}
+{% assign en_url = '/en/' %}
+{% assign ja_url = '/ja/' %}
+
+{% if page.ref %}
+  {% assign ref_docs = all_docs | where: "ref", page.ref %}
+  {% assign en_doc = ref_docs | where: "lang", "en" | first %}
+  {% assign ja_doc = ref_docs | where: "lang", "ja" | first %}
+  {% if en_doc %}{% assign en_url = en_doc.url %}{% endif %}
+  {% if ja_doc %}{% assign ja_url = ja_doc.url %}{% endif %}
+{% elsif page.lang == 'en' %}
+  {% assign en_url = page.url %}
+{% elsif page.lang == 'ja' %}
+  {% assign ja_url = page.url %}
+{% endif %}
+
+<link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+<link rel="alternate" hreflang="ja" href="{{ ja_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+
+{% if page.page_css %}
+  {% for stylesheet in page.page_css %}
+    {% assign stylesheet_href = stylesheet.path | default: stylesheet %}
+<link rel="stylesheet" href="{{ stylesheet_href | relative_url }}">
+  {% endfor %}
+{% endif %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->

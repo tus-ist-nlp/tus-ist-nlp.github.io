@@ -1,0 +1,23 @@
+main:
+  en:
+    - title: "Home"
+      url: /en/
+    - title: "News"
+      url: /en/news/
+    - title: "Research"
+      url: /en/research/
+    - title: "Publications"
+      url: /en/publications/
+    - title: "Members"
+      url: /en/members/
+  ja:
+    - title: "ホーム"
+      url: /ja/
+    - title: "ニュース"
+      url: /ja/news/
+    - title: "研究紹介"
+      url: /ja/research/
+    - title: "発表文献"
+      url: /ja/publications/
+    - title: "メンバー"
+      url: /ja/members/

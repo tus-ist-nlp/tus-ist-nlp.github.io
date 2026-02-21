@@ -1,0 +1,25 @@
+{% assign all_docs = site.pages | concat: site.posts %}
+{% assign en_url = '/en/' %}
+{% assign ja_url = '/ja/' %}
+
+{% if page.ref %}
+  {% assign ref_docs = all_docs | where: "ref", page.ref %}
+  {% assign en_doc = ref_docs | where: "lang", "en" | first %}
+  {% assign ja_doc = ref_docs | where: "lang", "ja" | first %}
+  {% if en_doc %}{% assign en_url = en_doc.url %}{% endif %}
+  {% if ja_doc %}{% assign ja_url = ja_doc.url %}{% endif %}
+{% elsif page.lang == 'en' %}
+  {% assign en_url = page.url %}
+  {% assign ja_url = page.url | replace_first: '/en/', '/ja/' %}
+{% elsif page.lang == 'ja' %}
+  {% assign ja_url = page.url %}
+  {% assign en_url = page.url | replace_first: '/ja/', '/en/' %}
+{% endif %}
+
+<div class="lang-switcher" aria-label="Language switcher">
+  {% if page.lang == 'ja' %}
+    <a href="{{ en_url | relative_url }}" lang="en">English</a>
+  {% else %}
+    <a href="{{ ja_url | relative_url }}" lang="ja">日本語</a>
+  {% endif %}
+</div>

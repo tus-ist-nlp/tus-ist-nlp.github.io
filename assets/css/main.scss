@@ -1,0 +1,24 @@
+---
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+$noto-sans-stack: "Noto Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$sans-serif: $noto-sans-stack;
+$sans-serif-narrow: $noto-sans-stack;
+$global-font-family: $noto-sans-stack;
+$header-font-family: $noto-sans-stack;
+$masthead-link-color: #fff;
+$masthead-link-color-hover: #fff;
+$navicon-link-color-hover: rgba(#fff, 0.16);
+$nav-background-color: $footer-background-color;
+$nav-text-color: #fff;
+$nav-text-color-hover: rgba(#fff, 0.8);
+
+@import "minimal-mistakes";
+@import "base";
+@import "nav";
+@import "home";
+@import "members";
+@import "publications";
