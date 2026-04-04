@@ -1,0 +1,19 @@
+.access-map {
+  margin: 1rem 0 1.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+}
+
+.access-map iframe {
+  display: block;
+  width: 100%;
+  min-height: 360px;
+  border: 0;
+}
+
+@media (max-width: 37.5em) {
+  .access-map iframe {
+    min-height: 280px;
+  }
+}
