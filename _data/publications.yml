@@ -737,36 +737,48 @@ sections:
   items:
   - title:
       ja: LLMを深く知り、上手に育てるー大規模言語モデルの仕組みと研究の最前線ー
+    authors:
+      ja: 山田 育矢
     year: 2026
     month: 1
     venue:
       ja: Keio-SPRING Ph.D. Seminar
   - title:
       ja: LLMを深く知り、上手に育てる
+    authors:
+      ja: 山田 育矢
     year: 2025
     month: 11
     venue:
       ja: 東京理科大学 ゲーム開発学特論 ゲスト講義
   - title:
       ja: 知識を効率的に追加・編集・蓄積できるAIを作る
+    authors:
+      ja: 山田 育矢
     year: 2025
     month: 10
     venue:
       ja: 東京理科大学TUS Forum
   - title:
       ja: 'Knowledgeable AIプロジェクト: 知識を効率的に追加・編集・蓄積できるAIを作る'
+    authors:
+      ja: 山田 育矢
     year: 2025
     month: 10
     venue:
       ja: 名古屋大学TokAI BOOST
   - title:
       ja: 事前学習（上級編）
+    authors:
+      ja: 山田 育矢
     year: 2025
     month: 10
     venue:
       ja: 東京大学松尾・岩澤研究室 大規模言語モデル講座 基礎編
   - title:
       ja: 'Knowledgeable AIプロジェクト: 知識を効率的に追加・編集・蓄積できるAIを作る'
+    authors:
+      ja: 山田 育矢
     year: 2025
     month: 9
     venue:
@@ -778,6 +790,8 @@ sections:
       url: https://ikuya.net/assets/pdfs/yans2025.pdf
   - title:
       ja: 大規模言語モデルの技術と最新動向
+    authors:
+      ja: 山田 育矢
     year: 2024
     month: 6
     venue:
@@ -789,6 +803,8 @@ sections:
       url: https://speakerdeck.com/ikuyamada/da-gui-mo-yan-yu-moderu-llm-noji-shu-tozui-xin-dong-xiang
   - title:
       ja: 言語間転移学習で大規模言語モデルを賢くする
+    authors:
+      ja: 山田 育矢
     year: 2024
     month: 3
     venue:
@@ -800,6 +816,8 @@ sections:
       url: https://speakerdeck.com/ikuyamada/yan-yu-jian-zhuan-yi-xue-xi-deda-gui-mo-yan-yu-moderuwoxian-kusuru
   - title:
       ja: 最先端の質問応答技術の研究開発と迅速な実用化
+    authors:
+      ja: 山田 育矢
     year: 2023
     month: 3
     venue:
@@ -811,6 +829,8 @@ sections:
       url: https://speakerdeck.com/ikuyamada/zui-xian-duan-nozhi-wen-ying-da-ji-shu-noyan-jiu-kai-fa-toxun-su-nashi-yong-hua-studio-ousiadenoqu-rizu-mi
   - title:
       ja: 知識拡張型言語モデルLUKE
+    authors:
+      ja: 山田 育矢
     year: 2023
     month: 3
     venue:
@@ -822,18 +842,24 @@ sections:
       url: https://speakerdeck.com/ikuyamada/zhi-shi-kuo-zhang-xing-yan-yu-moderuluke
   - title:
       ja: Studio Ousiaの技術開発の取り組みとAWSの活用
+    authors:
+      ja: 山田 育矢
     year: 2021
     month: 5
     venue:
       ja: AWS Summit Online Japan
   - title:
       ja: エンティティエンベディングの学習とその活用
+    authors:
+      ja: 山田 育矢
     year: 2021
     month: 4
     venue:
       ja: 理化学研究所AIP 森羅LinkJPキックオフミーティング
   - title:
       ja: オープンドメイン質問応答技術の最新動向
+    authors:
+      ja: 山田 育矢
     year: 2021
     month: 3
     venue:
@@ -845,6 +871,8 @@ sections:
       url: https://speakerdeck.com/ikuyamada/opundomeinzhi-wen-ying-da-ji-shu-falsezui-xin-dong-xiang
   - title:
       ja: 知識ベースの自然言語処理への活用
+    authors:
+      ja: 山田 育矢
     year: 2020
     month: 12
     venue:
@@ -856,6 +884,8 @@ sections:
       url: https://speakerdeck.com/ikuyamada/zhi-shi-besufalsezi-ran-yan-yu-chu-li-hefalsehuo-yong
   - title:
       ja: 実践！AllenNLPによるディープラーニングを用いた自然言語処理
+    authors:
+      ja: 山田 育矢
     year: 2020
     month: 10
     venue:
@@ -867,48 +897,64 @@ sections:
       url: https://speakerdeck.com/ikuyamada/shi-jian-allennlpniyorudeipuraninguwoyong-itazi-ran-yan-yu-chu-li
   - title:
       ja: 自然言語処理の開発現場でのAWS活用術 ーリサーチからデプロイまでー
+    authors:
+      ja: 山田 育矢
     year: 2019
     month: 10
     venue:
       ja: AWS DevDay Tokyo
   - title:
       ja: PythonによるWikipediaを活用した自然言語処理
+    authors:
+      ja: 山田 育矢
     year: 2018
     month: 10
     venue:
       ja: PyData.tokyo One-day Conference
   - title:
       ja: 自然言語処理にWikipediaを活用する
+    authors:
+      ja: 山田 育矢
     year: 2018
     month: 9
     venue:
       ja: 国立国語研究所 コーパスとしてのウェブテキスト活用シンポジウム
   - title:
       ja: 自然言語処理を使って”賢い”人工知能を作る
+    authors:
+      ja: 山田 育矢
     year: 2018
     month: 5
     venue:
       ja: 慶應義塾大学SFC 現代技術と社会
   - title:
       ja: 全米クイズ王チームに勝利した早押しクイズAIの仕組み
+    authors:
+      ja: 山田 育矢
     year: 2018
     month: 4
     venue:
       ja: PyData.Tokyo Meetup #18 データ分析コンペティションの勝ち上がり方
   - title:
       ja: 知識ベースを活用した自然言語処理の手法とその応用
+    authors:
+      ja: 山田 育矢
     year: 2018
     month: 3
     venue:
       ja: ステアラボ人工知能シンポジウム
   - title:
       ja: Pythonを使って言語処理のコンペティションにチャレンジ
+    authors:
+      ja: 山田 育矢
     year: 2015
     month: 10
     venue:
       ja: PyData.Tokyo Meetup #6 データマイニングコンペティション
   - title:
       ja: 知識ベースを活用したエンティティリンキング
+    authors:
+      ja: 山田 育矢
     year: 2015
     month: 7
     venue:

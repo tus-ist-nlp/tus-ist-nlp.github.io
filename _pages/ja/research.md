@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "研究紹介"
+title: "研究"
 permalink: /ja/research/
 lang: ja
 toc: true
