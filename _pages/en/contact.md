@@ -6,8 +6,12 @@ lang: en
 ref: contact
 ---
 
-Building 6, Tokyo University of Science Noda Campus<br />
-2641 Yamazaki, Noda-shi, Chiba 278-8510, Japan
+For inquiries about admissions, collaborative research, writing, or speaking engagements, please contact: ikuya (atmark) ikuya.net
+
+## Location
+
+278-8510<br />
+Building 6, Tokyo University of Science Noda Campus, 2641 Yamazaki, Noda-shi, Chiba, Japan
 
 <div class="access-map">
   <iframe
