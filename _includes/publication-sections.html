@@ -1,9 +1,23 @@
 {% assign lang = include.lang | default: page.lang | default: "ja" %}
+{% assign lang_prefix = lang | slice: 0, 2 %}
 {% assign sections = site.data.publications.sections %}
 {% assign has_any_items = false %}
 
 {% for section in sections %}
+  {% assign visible_items = 0 %}
   {% if section.items and section.items.size > 0 %}
+    {% for pub in section.items %}
+      {% assign hide_item = false %}
+      {% if lang_prefix == "en" and pub.title.ja and (pub.title.en == nil or pub.title.en == "") %}
+        {% assign hide_item = true %}
+      {% endif %}
+      {% unless hide_item %}
+        {% assign visible_items = visible_items | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+
+  {% if visible_items > 0 %}
     {% assign has_any_items = true %}
     {% assign section_title = section.title[lang] | default: section.title.ja %}
     {% assign section_slug = section_title | slugify %}
@@ -15,6 +29,11 @@
 <h2 id="{{ section_id }}">{{ section_title }}</h2>
 <ol class="publication-list">
 {% for pub in section.items %}
+  {% assign hide_item = false %}
+  {% if lang_prefix == "en" and pub.title.ja and (pub.title.en == nil or pub.title.en == "") %}
+    {% assign hide_item = true %}
+  {% endif %}
+  {% unless hide_item %}
   {% assign pub_title = pub.title[lang] | default: pub.title.ja | default: pub.title %}
   {% if pub.authors.ja or pub.authors.en %}
     {% assign pub_authors = pub.authors[lang] | default: pub.authors.ja | default: pub.authors.en | default: "" | strip %}
@@ -45,6 +64,7 @@
       </div>
     {% endif %}
   </li>
+  {% endunless %}
 {% endfor %}
 </ol>
 </section>

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "発表文献"
+title: "発表"
 permalink: /ja/publications/
 lang: ja
 toc: true
