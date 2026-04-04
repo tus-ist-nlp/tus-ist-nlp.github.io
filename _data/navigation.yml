@@ -10,6 +10,8 @@ main:
       url: /en/publications/
     - title: "Members"
       url: /en/members/
+    - title: "Contact"
+      url: /en/contact/
   ja:
     - title: "ホーム"
       url: /ja/
@@ -21,3 +23,5 @@ main:
       url: /ja/publications/
     - title: "メンバー"
       url: /ja/members/
+    - title: "連絡先"
+      url: /ja/access/
