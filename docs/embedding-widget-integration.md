@@ -2,7 +2,7 @@
 
 This site uses the embedding visualization widget from the `embedding-visualization` repository.
 
-## Files used in `lab-web`
+## Files used in `tus-ist-nlp.github.io`
 
 - `_includes/embedding-hero-widget.html`
 - `assets/widgets/embedding-hero-widget.css`
@@ -10,7 +10,7 @@ This site uses the embedding visualization widget from the `embedding-visualizat
 - `assets/widgets/data/en_wiki2vec.json`
 - `assets/widgets/data/ja_wiki2vec.json`
 
-`_includes/embedding-hero-widget.html` is managed in this `lab-web` repository.
+`_includes/embedding-hero-widget.html` is managed in this `tus-ist-nlp.github.io` repository.
 
 ## Activation on a page
 

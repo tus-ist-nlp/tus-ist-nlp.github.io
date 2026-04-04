@@ -6,7 +6,7 @@ repository: ""
 locale: "en-US"
 timezone: "Asia/Tokyo"
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "air"
 search: false
 atom_feed:
@@ -22,6 +22,8 @@ include:
   - _pages
 
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-sitemap
 
 defaults:
