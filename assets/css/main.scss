@@ -5,6 +5,7 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 
 $footer-background-color: #1ea7e1;
+$primary-color: $footer-background-color;
 $noto-sans-stack: "Noto Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $sans-serif: $noto-sans-stack;
 $sans-serif-narrow: $noto-sans-stack;
