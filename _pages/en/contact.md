@@ -6,7 +6,7 @@ lang: en
 ref: contact
 ---
 
-For inquiries about admissions, collaborative research, writing, or speaking engagements, please contact: ikuya (atmark) ikuya.net
+For inquiries about admissions, collaborative research, writing, or speaking engagements, please contact: ikuya (at) ikuya.net
 
 ## Location
 
