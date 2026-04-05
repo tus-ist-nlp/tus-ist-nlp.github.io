@@ -25,8 +25,8 @@
       {% assign section_slug = "section" %}
     {% endif %}
     {% assign section_id = "publication-" | append: section_slug | append: "-" | append: forloop.index %}
-<section class="publication-section">
 <h2 id="{{ section_id }}">{{ section_title }}</h2>
+<section class="publication-section">
 <ol class="publication-list">
 {% for pub in section.items %}
   {% assign hide_item = false %}
