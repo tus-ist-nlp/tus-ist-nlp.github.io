@@ -50,7 +50,7 @@ AI分野の最高峰の国際会議であるNeurIPSでは、質問応答シス�
 ## Knowledgeable AI: LLMの知識の扱いの改善 {#knowledgeable-ai}
 
 <figure class="align-right" style="max-width: 260px; margin-top: 0;">
-  <a href="/assets/pdfs/yans2025.pdf" target="_blank" rel="noopener">
+  <a href="/assets/images/yans2025.pdf" target="_blank" rel="noopener">
     <img src="/assets/images/yans2025-thumb.jpg" alt="YANS 2025ポスターのサムネイル" />
   </a>
   <figcaption>知識を効率的に追加・編集・蓄積できるAIを作る. YANS 2025招待ポスター（クリックでPDFを表示）</figcaption>
