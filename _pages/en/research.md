@@ -42,7 +42,7 @@ At NeurIPS, one of the most prestigious international conferences in AI, interna
 
 1. Yamada et al. <a href="https://arxiv.org/abs/2512.13059" target="_blank">An Open and Reproducible Deep Research Agent for Long-Form Question Answering</a>. Preprint. 2026.
 1. Yamada et al. <a href="https://arxiv.org/abs/2106.00882" target="_blank">Efficient passage retrieval with hashing for open-domain question answering</a>. ACL. 2021.
-1. Min et al. <a href="NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned" target="_blank">NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned</a>. PMLR. 2021.
+1. Min et al. <a href="https://arxiv.org/abs/2101.00133" target="_blank">NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned</a>. PMLR. 2021.
 1. Wallace et al. <a href="https://arxiv.org/abs/1809.02701" target="_blank">Trick Me If You Can: Human-in-the-loop Generation of Adversarial Examples for Question Answering</a>. TACL. 2019.
 1. Yamada et al. <a href="https://arxiv.org/abs/1803.08652" target="_blank">Studio Ousia's Quiz Bowl Question Answering System</a>. The NIPS '17 Competition: Building Intelligent Systems. 2018.
 
