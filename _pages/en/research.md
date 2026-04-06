@@ -17,7 +17,7 @@ Our lab conducts research in NLP, with a particular focus on LLMs and AI agents 
 
 Through this research, our lab aims to realize AI systems that can reason, plan, and act autonomously based on deep knowledge of the real world.
 
-## Deep Research Agents
+## Deep Research Agents {#deep-research}
 
 Although recent LLMs demonstrate strong capabilities, it is not easy for them to adequately handle complex questions or problems that require up-to-date information using only the knowledge stored in the model.
 
@@ -46,7 +46,7 @@ At NeurIPS, one of the most prestigious international conferences in AI, interna
 1. Wallace et al. <a href="https://arxiv.org/abs/1809.02701" target="_blank">Trick Me If You Can: Human-in-the-loop Generation of Adversarial Examples for Question Answering</a>. TACL. 2019.
 1. Yamada et al. <a href="https://arxiv.org/abs/1803.08652" target="_blank">Studio Ousia's Quiz Bowl Question Answering System</a>. The NIPS '17 Competition: Building Intelligent Systems. 2018.
 
-## Knowledgeable AI: Enhancing How LLMs Handle Knowledge
+## Knowledgeable AI: Enhancing How LLMs Handle Knowledge {#knowledgeable-ai}
 
 Many real-world problems require specialized knowledge or local knowledge that is only shared within a particular organization or group, yet it is difficult for LLMs to acquire such knowledge during training.  urthermore, knowledge must be updated as the world changes. It is also known that even when models have learned knowledge, they may not be able to make sufficient use of it, especially in low-resource languages.
 

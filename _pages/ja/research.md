@@ -17,7 +17,7 @@ ref: research
 
 本研究室では、これらの研究を通じて、実世界に関する深い知識に基づいて推論・計画し、自律的に行動するAIの実現に取り組んでいます。
 
-## 質問応答AIエージェント（Deep Research）
+## 質問応答AIエージェント（Deep Research） {#deep-research}
 
 近年のLLMは高い性能を示していますが、複雑な質問や最新の情報を必要とする問題では、LLMが保持する知識だけで十分に対応することは容易ではありません。
 
@@ -47,7 +47,7 @@ AI分野の最高峰の国際会議であるNeurIPSでは、質問応答シス�
 1. Wallace et al. <a href="https://arxiv.org/abs/1809.02701" target="_blank">Trick Me If You Can: Human-in-the-loop Generation of Adversarial Examples for Question Answering</a>. TACL. 2019.
 1. Yamada et al. <a href="https://arxiv.org/abs/1803.08652" target="_blank">Studio Ousia's Quiz Bowl Question Answering System</a>. The NIPS '17 Competition: Building Intelligent Systems. 2018.
 
-## Knowledgeable AI: LLMの知識の扱いの改善
+## Knowledgeable AI: LLMの知識の扱いの改善 {#knowledgeable-ai}
 
 <figure class="align-right" style="max-width: 260px; margin-top: 0;">
   <a href="/assets/pdfs/yans2025.pdf" target="_blank" rel="noopener">
