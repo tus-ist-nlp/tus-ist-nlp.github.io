@@ -24,10 +24,13 @@
           <a class="site-logo" href="{{ title_href | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ localized_site_title }}"></a>
         {% endunless %}
         <a class="site-title" href="{{ title_href | relative_url }}">
-          <span class="site-title__main">{{ localized_site_title | escape_once | strip }}</span>
-          {% unless localized_site_subtitle == empty %}
-            <span class="site-title__subtitle">{{ localized_site_subtitle | escape_once | strip }}</span>
-          {% endunless %}
+          <img class="site-title__mark" src="{{ '/assets/images/owl.png' | relative_url }}" alt="" aria-hidden="true" />
+          <span class="site-title__text">
+            <span class="site-title__main">{{ localized_site_title | escape_once | strip }}</span>
+            {% unless localized_site_subtitle == empty %}
+              <span class="site-title__subtitle">{{ localized_site_subtitle | escape_once | strip }}</span>
+            {% endunless %}
+          </span>
         </a>
         <ul class="visible-links">
           {%- for link in nav_data -%}
