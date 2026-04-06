@@ -1,0 +1,12 @@
+{
+  "name": "NLP Laboratory",
+  "short_name": "NLP Lab",
+  "icons": [
+    {
+      "src": "/assets/images/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone"
+}
