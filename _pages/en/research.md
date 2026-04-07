@@ -21,7 +21,7 @@ Although recent LLMs demonstrate strong capabilities, it is not easy for them to
 
 In this project, we study question answering AI agents (Deep Research agents) that autonomously search for the information needed to answer complex questions and generate responses by organizing and integrating the collected information. By leveraging multiple information sources and performing advanced reasoning and multi-step exploration, we aim to enable reliable responses even to complex questions.
 
-### Achievements in International Competitions
+### Achievements in NeurIPS Competitions
 
 <figure class="align-right" style="max-width: 300px; margin-top: 0;">
   <img src="/assets/images/mmu-rag.jpeg" alt="Photo from the award ceremony of the NeurIPS MMU-RAG Competition" />
