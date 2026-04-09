@@ -28,7 +28,7 @@ ref: research
 ### 国際コンペティションでの成果
 
 <figure class="align-right" style="max-width: 300px; margin-top: 0;">
-  <img src="/assets/images/mmu-rag.jpeg" alt="NeurIPS MMU-RAGコンペティションの授賞式の写真" />
+  <img src="{{ '/assets/images/mmu-rag.jpeg' | relative_url }}" alt="NeurIPS MMU-RAGコンペティションの授賞式の写真" />
   <figcaption>NeurIPS 2025 MMU-RAGコンペティションの授賞式の様子</figcaption>
 </figure>
 
@@ -50,8 +50,8 @@ AI分野の最高峰の国際会議であるNeurIPSでは、質問応答シス�
 ## Knowledgeable AI: LLMの知識の扱いの改善 {#knowledgeable-ai}
 
 <figure class="align-right" style="max-width: 260px; margin-top: 0;">
-  <a href="/assets/images/yans2025.pdf" target="_blank" rel="noopener">
-    <img src="/assets/images/yans2025-thumb.jpg" alt="YANS 2025ポスターのサムネイル" />
+  <a href="{{ '/assets/images/yans2025.pdf' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/yans2025-thumb.jpg' | relative_url }}" alt="YANS 2025ポスターのサムネイル" />
   </a>
   <figcaption>知識を効率的に追加・編集・蓄積できるAIを作る. YANS 2025招待ポスター（クリックでPDFを表示）</figcaption>
 </figure>

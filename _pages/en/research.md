@@ -24,7 +24,7 @@ In this project, we study question answering AI agents (Deep Research agents) th
 ### Achievements in NeurIPS Competitions
 
 <figure class="align-right" style="max-width: 300px; margin-top: 0;">
-  <img src="/assets/images/mmu-rag.jpeg" alt="Photo from the award ceremony of the NeurIPS MMU-RAG Competition" />
+  <img src="{{ '/assets/images/mmu-rag.jpeg' | relative_url }}" alt="Photo from the award ceremony of the NeurIPS MMU-RAG Competition" />
   <figcaption>Award ceremony of the NeurIPS 2025 MMU-RAG Competition</figcaption>
 </figure>
 
