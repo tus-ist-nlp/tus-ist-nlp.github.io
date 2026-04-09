@@ -12,7 +12,7 @@ page_js:
 ---
 
 <div class="home-intro">
-Our laboratory aims to develop AI that possesses deep knowledge of the real world, can reason and plan, and acts autonomously through research in natural language processing centered on large language models (LLMs) and AI agents. We place equal emphasis on both fundamental research and real-world deployment.
+Our lab conducts research in natural language processing, with a focus on large language models (LLMs) and AI agents. Our goal is to develop AI systems with rich knowledge of the real world that can reason, plan, and act autonomously. We place equal emphasis on fundamental research and real-world deployment.
 </div>
 
 ## News
