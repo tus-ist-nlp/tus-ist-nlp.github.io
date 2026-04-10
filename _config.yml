@@ -1,7 +1,7 @@
 title: "The Natural Language Processing Laboratory at Faculty of Information Science and Technology, Tokyo University of Science"
 description: "The official website for the NLP Laboratory at Faculty of Information Science and Technology, Tokyo University of Science."
-url: "https://www.rs.tus.ac.jp"
-baseurl: "/ist-nlp"
+url: "https://nlp.ist.tus.ac.jp"
+baseurl: ""
 repository: ""
 locale: "en-US"
 timezone: "Asia/Tokyo"
@@ -20,7 +20,6 @@ highlighter: rouge
 permalink: /:path/
 include:
   - _pages
-  - .htaccess
 
 plugins:
   - jekyll-remote-theme
