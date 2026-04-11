@@ -24,7 +24,7 @@
           <a class="site-logo" href="{{ title_href | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ localized_site_title }}"></a>
         {% endunless %}
         <a class="site-title" href="{{ title_href | relative_url }}">
-          <img class="site-title__mark" src="{{ '/assets/images/owl.png' | relative_url }}" alt="" aria-hidden="true" />
+          <img class="site-title__mark" src="{{ '/assets/images/owl.png' | relative_url }}" alt="" aria-hidden="true" width="119" height="141" />
           <span class="site-title__text">
             <span class="site-title__main">{{ localized_site_title | escape_once | strip }}</span>
             {% unless localized_site_subtitle == empty %}
