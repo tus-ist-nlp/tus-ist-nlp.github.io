@@ -19,7 +19,7 @@ Our goal is to develop AI systems that can reason, plan, and act autonomously, g
 
 Although recent LLMs demonstrate impressive capabilities, they still struggle with complex problems that require up-to-date information beyond the knowledge encoded in the model.
 
-In this project, we study question-answering AI agents, or Deep Research agents, that autonomously search for the information needed to answer complex questions and generate responses by integrating and synthesizing the collected information. By leveraging multiple information sources and performing advanced reasoning and multi-step exploration, we aim to enable reliable question answering for complex real-world problems.
+In this project, we study Deep Research agents that autonomously search for the information needed to answer complex questions and generate responses by integrating and synthesizing the collected information. By leveraging multiple information sources and performing advanced reasoning and multi-step exploration, we aim to enable reliable question answering for complex real-world problems.
 
 ### Achievements in NeurIPS Competitions
 
