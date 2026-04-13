@@ -12,7 +12,7 @@
         {% if member.email or member.email_text or member.homepage or member.x or member.github or member.facebook or member.linkedin or member.scholar or member.semantic_scholar or member.dblp %}
           {% assign has_links = true %}
         {% endif %}
-        {% assign email_text = member.email_text | default: member.email | replace: "@", " (at) " %}
+        {% assign email_text = member.email_text | default: member.email | replace: "@", " [at] " | replace: ".", " [dot] " %}
         {% assign member_name = member.name[lang] | default: member.name.ja %}
         {% assign member_role = member.role[lang] | default: member.role.ja %}
         <article class="member-item">
