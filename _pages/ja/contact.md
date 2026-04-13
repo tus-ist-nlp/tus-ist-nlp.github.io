@@ -7,7 +7,7 @@ ref: contact
 ---
 
 入学希望、共同研究、執筆、講演等のご相談は
-ikuya (at) ikuya.net までご連絡ください。
+ikuya [at] ikuya [dot] net までご連絡ください。
 
 ## 所在地
 
