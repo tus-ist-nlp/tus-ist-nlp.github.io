@@ -14,3 +14,14 @@ sections:
         scholar: "https://scholar.google.com/citations?user=M7YivToAAAAJ"
         x: "https://x.com/ikuyamada"
         github: "https://github.com/ikuyamada"
+  - title:
+      ja: "学生"
+      en: "Students"
+    members:
+      - name:
+          ja: "伊勢 瑛"
+          en: "Akira Ise"
+        role:
+          ja: "B4"
+          en: "B4"
+        github: "https://github.com/iseakira"
