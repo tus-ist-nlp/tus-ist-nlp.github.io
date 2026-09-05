@@ -6,8 +6,9 @@ lang: ja
 ref: contact
 ---
 
-入学希望、共同研究、執筆、講演等のご相談は
-ikuya [at] ikuya [dot] net までご連絡ください。
+研究室への進学・配属、共同研究、講演・執筆などのご相談は、下記のメールアドレスまでご連絡ください。
+
+ikuya [at] ikuya [dot] net
 
 ## 所在地
 
