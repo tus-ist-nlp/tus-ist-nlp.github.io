@@ -14,7 +14,7 @@ ref: research
 
 To make use of diverse kinds of knowledge, AI needs to combine approaches suited to the nature of that knowledge: learning it during training, retrieving it from external sources when needed, and updating it as circumstances change.
 
-With a focus on large language models (LLMs) and search agents, we study methods that enable AI to learn and use knowledge and to find and integrate information from external sources. We are working to develop AI that draws on diverse knowledge to reason, plan, and act autonomously.
+We study large language models (LLMs) that flexibly handle diverse kinds of knowledge and search agents that autonomously find and integrate the information they need. Through this research, we aim to develop AI that draws on knowledge to reason, plan, and act autonomously.
 
 ## Search Agents {#deep-research}
 
