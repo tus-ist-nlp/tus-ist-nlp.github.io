@@ -1,0 +1,48 @@
+.research-results {
+  margin: 1.5em 0;
+
+  @include breakpoint($medium) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    column-gap: 1.5rem;
+  }
+}
+
+.research-results__text {
+  min-width: 0;
+
+  > ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.research-photos {
+  display: grid;
+  grid-template-columns: minmax(0, 300px);
+  justify-content: center;
+  align-content: start;
+  gap: 1.5rem;
+  margin: 1.5em 0 0;
+
+  figure {
+    display: block;
+    margin: 0;
+    min-width: 0;
+  }
+
+  img {
+    display: block;
+    height: auto;
+    margin-bottom: 0.5em;
+  }
+
+  figcaption {
+    margin-bottom: 0;
+  }
+
+  @include breakpoint($medium) {
+    align-content: space-between;
+    margin: 0;
+  }
+}

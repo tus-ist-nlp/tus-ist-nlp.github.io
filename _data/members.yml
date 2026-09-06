@@ -14,6 +14,13 @@ sections:
         scholar: "https://scholar.google.com/citations?user=M7YivToAAAAJ"
         x: "https://x.com/ikuyamada"
         github: "https://github.com/ikuyamada"
+      - name:
+          ja: "尾崎 尚憲"
+          en: "Hisanori Ozaki"
+        role:
+          ja: "客員研究員（主勤務先：電通総研）"
+          en: "Visiting Researcher (Primary employer: DENTSU SOKEN INC.)"
+        x: "https://x.com/Hnrzk"
   - title:
       ja: "学生"
       en: "Students"

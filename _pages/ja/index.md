@@ -32,11 +32,4 @@ page_js:
 
 {% assign recent_news_ja = site.posts | where: "lang", "ja" | limit: 10 %}
 
-<ul>
-{% for post in recent_news_ja %}
-  <li>
-    {{ post.date | date: "%Y-%m-%d" }} -
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+{% include news-list.html posts=recent_news_ja %}
