@@ -28,27 +28,42 @@ AIが多様な知識を活用するには、知識の性質に応じて、モデ
 
 質問応答の評価やコンペティションの運営にも取り組んでいます。国際会議NAACL 2022で開催された[MIAワークショップ](https://mia-workshop.github.io/)を山田が共催し、同ワークショップでは16言語を対象とする検索型質問応答のコンペティションが実施されました。また、国際会議ICML 2026で開催された[EMM-QAワークショップ](https://qanta-org.github.io/competition/2026/icml/)では、山田が共同オーガナイザーを務め、文章と画像を用いるマルチモーダル質問応答のコンペティションの運営にも携わりました。
 
-{% include figure
-  image_path="/assets/images/mmu-rag.jpeg"
-  alt="NeurIPS 2025 MMU-RAGコンペティションの授賞式の写真"
-  caption="NeurIPS 2025 MMU-RAG授賞式"
-  class="align-right"
-%}
-
 国際コンペティションでは、これまでに以下の成果を上げています。
+
+<div class="research-results" markdown="1">
+<div class="research-results__text" markdown="1">
 
 - **2025年：[NeurIPS MMU-RAGコンペティション](https://agi-lti.github.io/MMU-RAGent/)**<br />
   開発した検索エージェントが、Text-to-Textトラック・オープンソース部門の静的評価で優勝しました。<br />
   論文：[An Open and Reproducible Deep Research Agent for Long-Form Question Answering](https://arxiv.org/abs/2512.13059) (Yamada et al., プレプリント、2025年)
 
 - **2020年：[NeurIPS EfficientQAコンペティション](https://efficientqa.github.io/)**<br />
-  制約トラックで準優勝、無制約トラックで3位を獲得しました。<br />
+  6GB制約トラックではFacebookに次ぐ2位、無制約トラックではMicrosoftとFacebookに次ぐ3位を獲得しました。<br />
   論文：[NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned](https://proceedings.mlr.press/v133/min21a.html) (Min et al., PMLR 2021)
 
 - **2017年：[NIPS Human-Computer QAコンペティション](https://sites.google.com/view/hcqa/)**<br />
-  優勝し、全米クイズ王6人のチームと対戦し、勝利しました。<br />
+  AI同士のコンペティションで優勝し、NIPS 2017のワークショップ会場で行われた全米クイズ王6人のチームとの対戦にも勝利しました。<br />
   論文：[Studio Ousia’s Quiz Bowl Question Answering System](https://arxiv.org/abs/1803.08652) (Yamada et al., The NIPS ’17 Competition: Building Intelligent Systems, 2018)<br />
   紹介記事：[強すぎて「会場がシーンと……」　クイズ王を圧倒した“早押しAI”の衝撃（ITmedia NEWS）](https://www.itmedia.co.jp/news/article/1802/28/1180228037/)
+
+</div>
+
+<div class="research-photos" markdown="1">
+
+{% include figure
+  image_path="/assets/images/mmu-rag.jpeg"
+  alt="NeurIPS 2025 MMU-RAGコンペティションの授賞式の写真"
+  caption="NeurIPS 2025 MMU-RAG授賞式"
+%}
+
+{% include figure
+  image_path="/assets/images/quiz-bowl-match.png"
+  alt="NIPS 2017でクイズ王チームとAIが対戦する会場の様子"
+  caption="NIPS 2017でのクイズ王とAIの対戦"
+%}
+
+</div>
+</div>
 
 ### 関連論文 {#agent-publications}
 

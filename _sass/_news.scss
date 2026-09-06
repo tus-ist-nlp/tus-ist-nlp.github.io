@@ -1,0 +1,21 @@
+.news-list {
+  margin-bottom: 1.5em;
+}
+
+.news-item + .news-item {
+  margin-top: 1.25em;
+}
+
+.news-date {
+  display: block;
+  margin-bottom: 0.2em;
+  color: $muted-text-color;
+  font-size: 0.75em;
+  line-height: 1.5;
+}
+
+.news-title {
+  display: block;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}

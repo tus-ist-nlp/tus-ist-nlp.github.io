@@ -9,6 +9,7 @@
 .member-name {
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 0.3rem;
   font-size: 1.22rem;
@@ -19,7 +20,7 @@
   margin: 0;
   font-size: 0.66em;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.5;
   color: $muted-text-color;
 }
 

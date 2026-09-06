@@ -28,27 +28,42 @@ As foundational retrieval technologies, we proposed [BPR](https://aclanthology.o
 
 We also contribute to question answering evaluation and competition organization. Yamada co-organized the [MIA Workshop](https://mia-workshop.github.io/) at NAACL 2022, which hosted a competition on open-retrieval question answering across 16 languages. At the [EMM-QA Workshop](https://qanta-org.github.io/competition/2026/icml/) at ICML 2026, Yamada served as a co-organizer and also helped organize a competition on multimodal question answering using text and images.
 
-{% include figure
-  image_path="/assets/images/mmu-rag.jpeg"
-  alt="Photo from the award ceremony of the NeurIPS 2025 MMU-RAG Competition"
-  caption="NeurIPS 2025 MMU-RAG award ceremony"
-  class="align-right"
-%}
-
 Our results in international competitions include:
+
+<div class="research-results" markdown="1">
+<div class="research-results__text" markdown="1">
 
 - **2025: [NeurIPS MMU-RAG Competition](https://agi-lti.github.io/MMU-RAGent/)**<br />
   Our search agent won the static evaluation in the open-source division of the Text-to-Text track.<br />
   Paper: [An Open and Reproducible Deep Research Agent for Long-Form Question Answering](https://arxiv.org/abs/2512.13059) (Yamada et al., Preprint, 2025)
 
 - **2020: [NeurIPS EfficientQA Competition](https://efficientqa.github.io/)**<br />
-  We placed second in the constrained track and third in the unconstrained track.<br />
+  We placed second behind Facebook in the 6GB track and third behind Microsoft and Facebook in the unrestricted track.<br />
   Paper: [NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned](https://proceedings.mlr.press/v133/min21a.html) (Min et al., PMLR 2021)
 
 - **2017: [NIPS Human-Computer QA Competition](https://sites.google.com/view/hcqa/)**<br />
-  We won the competition, then competed against and defeated a team of six U.S. quiz champions.<br />
+  Our system won the competition among AI systems and defeated a team of six U.S. quiz champions in a live match at the NIPS 2017 workshop.<br />
   Paper: [Studio Ousia’s Quiz Bowl Question Answering System](https://arxiv.org/abs/1803.08652) (Yamada et al., The NIPS ’17 Competition: Building Intelligent Systems, 2018)<br />
   Media coverage: [The quiz AI that stunned the audience and defeated quiz champions — ITmedia NEWS (in Japanese)](https://www.itmedia.co.jp/news/article/1802/28/1180228037/)
+
+</div>
+
+<div class="research-photos" markdown="1">
+
+{% include figure
+  image_path="/assets/images/mmu-rag.jpeg"
+  alt="Photo from the award ceremony of the NeurIPS 2025 MMU-RAG Competition"
+  caption="NeurIPS 2025 MMU-RAG award ceremony"
+%}
+
+{% include figure
+  image_path="/assets/images/quiz-bowl-match.png"
+  alt="Quiz champions competing against AI at NIPS 2017"
+  caption="Quiz champions vs. AI at NIPS 2017"
+%}
+
+</div>
+</div>
 
 ### Related Papers {#agent-publications}
 
