@@ -12,7 +12,7 @@ page_js:
 
 <div class="home-intro" markdown="1">
 
-<a href="https://www.tus.ac.jp/academics/faculty/informationsciencetechnology/" target="_blank" rel="noopener">東京理科大学創域情報学部</a>自然言語処理研究室（山田研究室）では、大規模言語モデル（LLM）やAIエージェントの研究を通じて、多様な知識に基づいて推論・計画し、自律的に行動するAIの実現に取り組んでいます。
+<a href="https://www.tus.ac.jp/ist/" target="_blank" rel="noopener">東京理科大学創域情報学部</a>自然言語処理研究室（山田研究室）では、大規模言語モデル（LLM）やAIエージェントの研究を通じて、多様な知識に基づいて推論・計画し、自律的に行動するAIの実現に取り組んでいます。
 
 </div>
 
