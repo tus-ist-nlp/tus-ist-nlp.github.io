@@ -13,7 +13,7 @@ page_js:
 
 <div class="home-intro" markdown="1">
 
-The Natural Language Processing Laboratory (Yamada Lab) at the <a href="https://www.tus.ac.jp/academics/faculty/informationsciencetechnology/" target="_blank" rel="noopener">Faculty of Information Science and Technology, Tokyo University of Science</a> aims to develop AI that reasons, plans, and acts autonomously using diverse knowledge, with a focus on large language models (LLMs) and AI agents. We study the principles and methods that underpin AI learning and inference, and apply our findings to challenges in academic research and industry.
+The Natural Language Processing Laboratory (Yamada Lab) at the <a href="https://www.tus.ac.jp/academics/faculty/informationsciencetechnology/" target="_blank" rel="noopener">Faculty of Information Science and Technology, Tokyo University of Science</a> conducts research on large language models (LLMs) and AI agents to develop AI that draws on diverse knowledge to reason, plan, and act autonomously. We study the principles and methods that underpin AI learning and inference, and apply our findings to challenges in academic research and industry.
 
 </div>
 
@@ -21,7 +21,7 @@ The Natural Language Processing Laboratory (Yamada Lab) at the <a href="https://
 
 ### Search Agents
 
-We study AI that autonomously repeats cycles of search and reasoning across diverse sources, including the web, academic literature, and internal organizational documents, integrating the information it gathers to provide answers grounded in evidence. We also aim to enable people and AI to work together on investigation and problem solving, drawing on human knowledge and judgment.
+We study AI that autonomously repeats cycles of search and reasoning across diverse sources, including the web, academic literature, and internal organizational documents, integrating the information it gathers to provide answers grounded in evidence.
 
 ### Large Language Models (LLMs)
 
