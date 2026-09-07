@@ -1,106 +1,6 @@
 ---
 sections:
 - title:
-    ja: 書籍
-    en: Books
-  items:
-  - title:
-      ja: 大規模言語モデル入門Ⅱ〜生成型LLMの実装と評価
-      en: Introduction to Large Language Models II (in Japanese)
-    authors:
-      ja: 山田 育矢, 鈴木 正敏, 西川 荘介, 藤井 一喜, 山田 康輔, 李 凌寒
-      en: Ikuya Yamada, Masatoshi Suzuki, Sosuke Nishikawa, Kazuki Fujii, Kosuke Yamada, Linghan Li
-    publisher:
-      ja: 技術評論社
-      en: Gijutsu-Hyoron Co., Ltd.
-    year: 2024
-    month: 9
-    links:
-    - label:
-        ja: 出版社ページ
-        en: Publisher's Page
-      url: https://gihyo.jp/book/2024/978-4-297-14393-0
-    - label:
-        ja: Amazon.co.jp
-        en: Amazon.co.jp
-      url: https://www.amazon.co.jp/dp/4297143933
-  - title:
-      ja: 大規模言語モデル入門
-      en: Introduction to Large Language Models (in Japanese)
-    authors:
-      ja: 山田 育矢, 鈴木 正敏, 山田 康輔, 李 凌寒
-      en: Ikuya Yamada, Masatoshi Suzuki, Kosuke Yamada, Linghan Li
-    publisher:
-      ja: 技術評論社
-      en: Gijutsu-Hyoron Co., Ltd.
-    year: 2023
-    month: 7
-    links:
-    - label:
-        ja: 出版社ページ
-        en: Publisher's Page
-      url: https://gihyo.jp/book/2023/978-4-297-13633-8
-    - label:
-        ja: Amazon.co.jp
-        en: Amazon.co.jp
-      url: https://www.amazon.co.jp/dp/4297136333
-  - title:
-      ja: ディープラーニングによる自然言語処理
-      en: Natural Language Processing with Deep Learning (in Japanese)
-    authors:
-      ja: 山田 育矢, 柴田 知秀, 進藤 裕之, 玉木 竜二
-      en: Ikuya Yamada, Tomohide Shibata, Hiroyuki Shindo, Ryuji Tamaki
-    publisher:
-      ja: 共立出版
-      en: Kyoritsu Shuppan Co., Ltd.
-    year: 2023
-    month: 5
-    links:
-    - label:
-        ja: 出版社ページ
-        en: Publisher's Page
-      url: https://www.kyoritsu-pub.co.jp/book/b10031165.html
-    - label:
-        ja: Amazon.co.jp
-        en: Amazon.co.jp
-      url: https://www.amazon.co.jp/dp/4320125029
-  - title:
-      ja: 自然言語処理技術
-      en: Natural Language Processing (in Japanese)
-    authors:
-      ja: 鈴木 潤, 土屋 誠司, 本橋 和貴, 高橋 寛治, 田村 晃裕, 山田 育矢, 荒木 健治, 森信介, 渡邉 信一, 原 紳, 水本 智也, 清水 武
-      en: Jun Suzuki, Seiji Tsuchiya, Kazutaka Motohashi, Kanji Takahashi, Akihiro Tamura, Ikuya Yamada, Kenji Araki, Shinsuke Mori, Shinichi Watanabe, Shin Hara, Tomoya Mizumoto, Takeshi Shimizu
-    publisher:
-      ja: 情報機構
-      en: Joho Kiko Co., Ltd.
-    year: 2020
-    month: 3
-    links:
-    - label:
-        ja: 出版社ページ
-        en: Publisher's Page
-      url: https://johokiko.co.jp/publishing/BC200202.php
-  - title:
-      ja: Pythonによるはじめての機械学習プログラミング
-      en: Introduction to Machine Learning Programming in Python (in Japanese)
-    authors:
-      ja: 島田 達朗, 越水 直人, 早川 敦士, 山田 育矢
-      en: Tatsuro Shimada, Naoto Koshimizu, Atsushi Hayakawa, Ikuya Yamada
-    publisher:
-      ja: 技術評論社
-      en: Gijutsu-Hyoron Co., Ltd.
-    year: 2019
-    month: 4
-    links:
-    - label:
-        ja: 出版社ページ
-        en: Publisher's Page
-      url: https://gihyo.jp/book/2019/978-4-297-10525-9
-    - label:
-        ja: Amazon.co.jp
-        en: Amazon.co.jp
-      url: https://www.amazon.co.jp/dp/429710525X
-- title:
     ja: ジャーナル論文
     en: Journal Articles
   items:
@@ -731,6 +631,106 @@ sections:
       en: Workshop on Making Sense of Microposts
     year: 2015
     month: 5
+- title:
+    ja: 書籍
+    en: Books
+  items:
+  - title:
+      ja: 大規模言語モデル入門Ⅱ〜生成型LLMの実装と評価
+      en: Introduction to Large Language Models II (in Japanese)
+    authors:
+      ja: 山田 育矢, 鈴木 正敏, 西川 荘介, 藤井 一喜, 山田 康輔, 李 凌寒
+      en: Ikuya Yamada, Masatoshi Suzuki, Sosuke Nishikawa, Kazuki Fujii, Kosuke Yamada, Linghan Li
+    publisher:
+      ja: 技術評論社
+      en: Gijutsu-Hyoron Co., Ltd.
+    year: 2024
+    month: 9
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://gihyo.jp/book/2024/978-4-297-14393-0
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/4297143933
+  - title:
+      ja: 大規模言語モデル入門
+      en: Introduction to Large Language Models (in Japanese)
+    authors:
+      ja: 山田 育矢, 鈴木 正敏, 山田 康輔, 李 凌寒
+      en: Ikuya Yamada, Masatoshi Suzuki, Kosuke Yamada, Linghan Li
+    publisher:
+      ja: 技術評論社
+      en: Gijutsu-Hyoron Co., Ltd.
+    year: 2023
+    month: 7
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://gihyo.jp/book/2023/978-4-297-13633-8
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/4297136333
+  - title:
+      ja: ディープラーニングによる自然言語処理
+      en: Natural Language Processing with Deep Learning (in Japanese)
+    authors:
+      ja: 山田 育矢, 柴田 知秀, 進藤 裕之, 玉木 竜二
+      en: Ikuya Yamada, Tomohide Shibata, Hiroyuki Shindo, Ryuji Tamaki
+    publisher:
+      ja: 共立出版
+      en: Kyoritsu Shuppan Co., Ltd.
+    year: 2023
+    month: 5
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://www.kyoritsu-pub.co.jp/book/b10031165.html
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/4320125029
+  - title:
+      ja: 自然言語処理技術
+      en: Natural Language Processing (in Japanese)
+    authors:
+      ja: 鈴木 潤, 土屋 誠司, 本橋 和貴, 高橋 寛治, 田村 晃裕, 山田 育矢, 荒木 健治, 森信介, 渡邉 信一, 原 紳, 水本 智也, 清水 武
+      en: Jun Suzuki, Seiji Tsuchiya, Kazutaka Motohashi, Kanji Takahashi, Akihiro Tamura, Ikuya Yamada, Kenji Araki, Shinsuke Mori, Shinichi Watanabe, Shin Hara, Tomoya Mizumoto, Takeshi Shimizu
+    publisher:
+      ja: 情報機構
+      en: Joho Kiko Co., Ltd.
+    year: 2020
+    month: 3
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://johokiko.co.jp/publishing/BC200202.php
+  - title:
+      ja: Pythonによるはじめての機械学習プログラミング
+      en: Introduction to Machine Learning Programming in Python (in Japanese)
+    authors:
+      ja: 島田 達朗, 越水 直人, 早川 敦士, 山田 育矢
+      en: Tatsuro Shimada, Naoto Koshimizu, Atsushi Hayakawa, Ikuya Yamada
+    publisher:
+      ja: 技術評論社
+      en: Gijutsu-Hyoron Co., Ltd.
+    year: 2019
+    month: 4
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://gihyo.jp/book/2019/978-4-297-10525-9
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/429710525X
 - title:
     ja: 講演
     en: Talks

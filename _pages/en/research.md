@@ -43,8 +43,7 @@ Our results in international competitions include:
 
 - **2017: [NIPS Human-Computer QA Competition](https://sites.google.com/view/hcqa/)**<br />
   Our system won the competition among AI systems and defeated a team of six U.S. quiz champions in a live match at the NIPS 2017 workshop.<br />
-  Paper: [Studio Ousia’s Quiz Bowl Question Answering System](https://arxiv.org/abs/1803.08652) (Yamada et al., The NIPS ’17 Competition: Building Intelligent Systems, 2018)<br />
-  Media coverage: [The quiz AI that stunned the audience and defeated quiz champions — ITmedia NEWS (in Japanese)](https://www.itmedia.co.jp/news/article/1802/28/1180228037/)
+  Paper: [Studio Ousia’s Quiz Bowl Question Answering System](https://arxiv.org/abs/1803.08652) (Yamada et al., The NIPS ’17 Competition: Building Intelligent Systems, 2018)
 
 </div>
 
