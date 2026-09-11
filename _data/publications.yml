@@ -484,6 +484,24 @@ sections:
     en: International Workshop Papers
   items:
   - title:
+      ja: 'Lit3R: Retrieve–Relate–Read for Evidence-Grounded Question Answering over Scientific Literature'
+      en: 'Lit3R: Retrieve–Relate–Read for Evidence-Grounded Question Answering over Scientific Literature'
+    authors:
+      ja: Akira Ise, Kotaro Kumagai, Yuta Yamaguchi, Hisanori Ozaki, Yukio Uematsu, Ikuya Yamada
+      en: Akira Ise, Kotaro Kumagai, Yuta Yamaguchi, Hisanori Ozaki, Yukio Uematsu, Ikuya Yamada
+    venue:
+      ja: GroundLM Workshop
+      en: GroundLM Workshop
+    year: 2026
+    status:
+      ja: 掲載予定
+      en: To appear
+    links:
+    - label:
+        ja: GitHub
+        en: GitHub
+      url: https://github.com/tus-ist-nlp/littraceqa
+  - title:
       ja: 'MIA 2022 Shared Task: Evaluating cross-lingual open-retrieval question answering for 16 diverse languages'
       en: 'MIA 2022 Shared Task: Evaluating cross-lingual open-retrieval question answering for 16 diverse languages'
     authors:
