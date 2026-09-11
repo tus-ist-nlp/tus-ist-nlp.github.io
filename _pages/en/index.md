@@ -13,7 +13,7 @@ page_js:
 
 <div class="home-intro" markdown="1">
 
-The Natural Language Processing Laboratory (Yamada Lab) at the <a href="https://www.tus.ac.jp/academics/faculty/informationsciencetechnology/" target="_blank" rel="noopener">Faculty of Information Science and Technology, Tokyo University of Science</a> conducts research on large language models (LLMs) and AI agents to develop AI that draws on diverse knowledge to reason, plan, and act autonomously.
+The Natural Language Processing Laboratory (Yamada Lab) at the <a href="https://www.tus.ac.jp/academics/faculty/informationsciencetechnology/" target="_blank" rel="noopener">Faculty of Information Science and Technology, Tokyo University of Science</a> was established in April 2026. We conduct research on large language models (LLMs) and AI agents to develop AI that draws on diverse knowledge to reason, plan, and act autonomously.
 
 </div>
 
