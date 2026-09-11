@@ -43,6 +43,7 @@
   {% assign pub_venue = pub.venue[lang] | default: pub.venue.ja | default: pub.venue | default: "" | strip %}
   {% assign pub_publisher = pub.publisher[lang] | default: pub.publisher.ja | default: pub.publisher.en | default: pub.publisher | default: "" | strip %}
   {% assign pub_year = pub.year | default: "" | strip %}
+  {% assign pub_status = pub.status[lang] | default: pub.status.ja | default: "" | strip %}
   <li>
     <div class="publication-title">{{ pub_title }}</div>
     {% if pub_authors != "" or pub_venue != "" or pub_publisher != "" or pub_year != "" %}
@@ -51,7 +52,7 @@
         <div class="publication-authors">{{ pub_authors }}</div>
       {% endif %}
       {% if pub_venue != "" or pub_publisher != "" or pub_year != "" %}
-        <div class="publication-venue-year">{% if pub_venue != "" %}<em>{{ pub_venue }}</em>{% elsif pub_publisher != "" %}{{ pub_publisher }}{% endif %}{% if pub_year != "" %}{% if pub_venue != "" or pub_publisher != "" %}. {% endif %}{{ pub_year }}{% endif %}.</div>
+        <div class="publication-venue-year">{% if pub_venue != "" %}<em>{{ pub_venue }}</em>{% elsif pub_publisher != "" %}{{ pub_publisher }}{% endif %}{% if pub_year != "" %}{% if pub_venue != "" or pub_publisher != "" %}. {% endif %}{{ pub_year }}{% endif %}.{% if pub_status != "" %} ({{ pub_status }}){% endif %}</div>
       {% endif %}
     </div>
     {% endif %}
