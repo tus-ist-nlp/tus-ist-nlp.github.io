@@ -21,6 +21,15 @@ sections:
           ja: "客員研究員（主勤務先：電通総研）"
           en: "Visiting Researcher (Primary employer: DENTSU SOKEN INC.)"
         x: "https://x.com/Hnrzk"
+      - name:
+          ja: "鈴木 正敏"
+          en: "Masatoshi Suzuki"
+        role:
+          ja: "客員研究員（主勤務先：Studio Ousia）"
+          en: "Visiting Researcher (Primary employer: Studio Ousia)"
+        homepage: "https://singletongue.github.io/"
+        x: "https://x.com/fivehints"
+        github: "https://github.com/singletongue"
   - title:
       ja: "学生"
       en: "Students"
