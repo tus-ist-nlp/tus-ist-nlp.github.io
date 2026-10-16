@@ -31,6 +31,18 @@ sections:
         x: "https://x.com/fivehints"
         github: "https://github.com/singletongue"
   - title:
+      ja: "連携教員"
+      en: "Collaborating Faculty"
+    members:
+      - name:
+          ja: "植松 幸生"
+          en: "Yukio Uematsu"
+        role:
+          ja: "准教授"
+          en: "Associate Professor"
+        github: "https://github.com/alfyukio"
+        linkedin: "https://www.linkedin.com/in/yukio-uematsu-baab277/"
+  - title:
       ja: "学生"
       en: "Students"
     members:
