@@ -41,3 +41,22 @@ sections:
           ja: "B4"
           en: "B4"
         github: "https://github.com/iseakira"
+      - name:
+          ja: "岡田 條永"
+          en: "Jouei Okada"
+        role:
+          ja: "B3"
+          en: "B3"
+        github: "https://github.com/joeyprg45"
+      - name:
+          ja: "形屋 皓亮"
+          en: "Kousuke Kataya"
+        role:
+          ja: "B3"
+          en: "B3"
+      - name:
+          ja: "酒寄 友樹"
+          en: "Yuuki Sakayori"
+        role:
+          ja: "B3"
+          en: "B3"
