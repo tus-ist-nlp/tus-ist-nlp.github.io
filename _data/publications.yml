@@ -493,14 +493,19 @@ sections:
       ja: GroundLM Workshop
       en: GroundLM Workshop
     year: 2026
-    status:
-      ja: 掲載予定
-      en: To appear
     links:
+    - label:
+        ja: arXiv
+        en: arXiv
+      url: https://arxiv.org/abs/2609.16912
     - label:
         ja: GitHub
         en: GitHub
       url: https://github.com/tus-ist-nlp/littraceqa
+    - label:
+        ja: DOI
+        en: DOI
+      url: https://doi.org/10.18653/2026.groundlm-1.89
   - title:
       ja: 'MIA 2022 Shared Task: Evaluating cross-lingual open-retrieval question answering for 16 diverse languages'
       en: 'MIA 2022 Shared Task: Evaluating cross-lingual open-retrieval question answering for 16 diverse languages'
