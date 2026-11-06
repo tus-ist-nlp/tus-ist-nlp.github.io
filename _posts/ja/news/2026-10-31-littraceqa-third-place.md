@@ -17,3 +17,6 @@ LitTraceQAは、学術論文を検索し、回答の根拠となる箇所を特�
 
 **システム論文：**<br>
 [Lit3R: Retrieve–Relate–Read for Evidence-Grounded Question Answering over Scientific Literature](https://aclanthology.org/2026.groundlm-1.89/)
+
+**大学公式記事：**<br>
+[EMNLP2026 国際AIコンペティション「LitTraceQA」において本学教員および学生らが第3位に入賞](https://www.tus.ac.jp/today/archive/20261105_0205.html)
