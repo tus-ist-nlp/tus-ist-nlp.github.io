@@ -659,6 +659,29 @@ sections:
     en: Books
   items:
   - title:
+      ja: 実践ドメイン特化ローカルLLM
+      en: Domain-Specific Small Language Models (Japanese edition)
+    authors:
+      ja: Guglielmo Iozzia（原著）, 山田 育矢（監修）, 吉田 真吾（監修）, 株式会社クイープ（翻訳）
+      en: Guglielmo Iozzia (author), Ikuya Yamada (Japanese edition supervisor), Shingo Yoshida (Japanese edition supervisor), Quipu (translator)
+    publisher:
+      ja: 翔泳社
+      en: Shoeisha
+    year: 2026
+    month: 12
+    status:
+      ja: 発売予定
+      en: Forthcoming
+    links:
+    - label:
+        ja: 出版社ページ
+        en: Publisher's Page
+      url: https://www.shoeisha.co.jp/book/detail/9784798196060
+    - label:
+        ja: Amazon.co.jp
+        en: Amazon.co.jp
+      url: https://www.amazon.co.jp/dp/4798196061
+  - title:
       ja: 大規模言語モデル入門Ⅱ〜生成型LLMの実装と評価
       en: Introduction to Large Language Models II (in Japanese)
     authors:
